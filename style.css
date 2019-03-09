@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+  background: white;
+  font-size: 32pt;
+  font-family: Arial;
+  color: #ccc;
+  text-align: center;
+}
+
+form {
+	position: absolute;
+  font-size: 32pt;
+	width: 100vw;
+  margin: 0;
+  padding: 0;
+	height: 160px;
+	top: 40vh;
+  color: black;
+}
+
+#myInput {
+	width: 240px;
+	font-size: 32pt;
+	text-align: center;
+  border: 0;
+  border-bottom: dashed 2px black;
+  box-shadow: none;
+  outline: none;
+}
+
+#answer {
+	font-size: 32pt;
+	background-color: YellowGreen;
+	color: white;
+  margin-top: 20px;
+  height: 42px;
+  padding: 5px 15px 5px 15px;
+}
+
+#counter {
+  position: absolute;
+  width: 100vw;
+  padding-bottom: 20px;
+  bottom: 0;
+  font-size: 18pt;
+}
+
+#local {
+	display: block;
+	margin-bottom: 10px;
+	color: #ccc;
+	font-size: 20pt;
+}
